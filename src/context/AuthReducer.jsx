@@ -6,9 +6,7 @@ const AuthReducer = (state,action) => {
         };
     }
     case 'LOGOUT':{
-        return{
-            currentUser:null
-        }
+        return{ currentUser:null}
     }
     default: return state;
   }
